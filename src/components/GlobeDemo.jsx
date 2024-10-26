@@ -414,12 +414,12 @@ export function GlobeDemo() {
           }}
           className="div">
           <h2
-            className="text-5xl text-center bg-gradient-to-t from-gray-700 to-slate-50 bg-clip-text text-transparent font-medium">
+            className="text-6xl text-center bg-gradient-to-t from-gray-700 to-slate-50 bg-clip-text text-transparent font-semibold pb-2">
             Intelligent life safety,
           </h2>
           <p
           
-            className= "font-birthstone text-center text-7xl pb-4 italic font-normal bg-gradient-to-t from-gray-700 to-slate-50 bg-clip-text text-transparent max-w-md mt-2 mx-auto">
+            className= "font-Instrument text-center text-7xl pb-4 italic font-normal bg-gradient-to-t from-gray-900 to-slate-50 bg-clip-text text-transparent max-w-md mt-2 mx-auto">
             at your fingers.
           </p>
         </motion.div>

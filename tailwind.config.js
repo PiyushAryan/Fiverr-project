@@ -19,6 +19,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'birthstone': ['Birthstone', 'serif'],
+        'Instrument' :['Instrument Serif', 'serif'],
+
       },
       colors: {
         border: "hsl(var(--border))",
