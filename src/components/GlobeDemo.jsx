@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
+
 const World = dynamic(() => import("@/components/ui/globe").then((m) => m.World), {
   ssr: false,
 });
@@ -418,7 +419,7 @@ export function GlobeDemo() {
           </h2>
           <p
           
-            className= "{Birthstone.className} text-center  text-6xl italic font-sans font-normal bg-gradient-to-t from-gray-700 to-slate-50 bg-clip-text text-transparent max-w-md mt-2 mx-auto">
+            className= "font-birthstone text-center text-7xl pb-4 italic font-normal bg-gradient-to-t from-gray-700 to-slate-50 bg-clip-text text-transparent max-w-md mt-2 mx-auto">
             at your fingers.
           </p>
         </motion.div>
@@ -429,5 +430,6 @@ export function GlobeDemo() {
         </div>
       </div>
     </div>)
+    
   );
 }
